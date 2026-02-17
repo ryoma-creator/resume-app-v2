@@ -350,7 +350,7 @@ export default function Rirekisho() {
                 <ContentCell>英会話 3,000回以上（1回25分）・90,000分以上（〜2022年）</ContentCell>
               </tr>
               <tr>
-                <td style={{textAlign: 'center'}}>継続中</td>
+                <td style={{textAlign: 'center'}}>2024〜</td>
                 <td></td>
                 <ContentCell>Webアプリケーション開発技術継続学習中（React/Next.js、TypeScript、API・DB連携等）</ContentCell>
               </tr>
@@ -367,7 +367,7 @@ export default function Rirekisho() {
   </thead>
   <tbody>
     <tr>
-      <YearCell>2024</YearCell>
+      <YearCell>2025</YearCell>
       <MonthCell>2</MonthCell>
       <ContentCell>ポートフォリオサイト：https://my-portfolio-website-lake.vercel.app/</ContentCell>
     </tr>
