@@ -346,7 +346,15 @@ export default function Rirekisho() {
   <tbody>
     <tr>
       <td colSpan="3" style={{height: '80mm', padding: '4mm', lineHeight: '1.3', fontSize: '9pt'}}>
-        開発業務において貢献できればと考えております。
+        開発業務において貢献できればと考えております。<br/><br/>
+        <strong>アピールポイント</strong><br/>
+        ・React / Next.js を中心とした開発（TypeScriptも使用）<br/>
+        ・API連携・認証・DB含むフルスタック理解<br/>
+        ・FigmaからのUI再現・pixel perfect実装<br/>
+        ・Git / レスポンシブ / コンポーネント設計<br/>
+        ・英語での業務コミュニケーション<br/>
+        ・多国籍チーム調整経験（アクセンチュア）<br/>
+        ・IBM Philippines 開発者選考6段階合格（2025年）
       </td>
     </tr>
   </tbody>
