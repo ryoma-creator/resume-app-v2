@@ -247,19 +247,19 @@ export default function Rirekisho() {
                 <ContentCell>武蔵工業大学 環境情報学部環境情報学科 入学</ContentCell>
               </tr>
               <tr>
+                <td></td>
+                <td></td>
+                <ContentCell>サービス業・教育・翻訳・IT等の業務に従事（英語対応含む、～2021年3月）</ContentCell>
+              </tr>
+              <tr>
                 <YearCell>2012</YearCell>
                 <MonthCell>4</MonthCell>
                 <ContentCell>明治学院大学 法学部法律学科 編入学（3年次）</ContentCell>
               </tr>
               <tr>
-                <YearCell>2017</YearCell>
-                <MonthCell>9</MonthCell>
-                <ContentCell>GITC（デンマーク）語学留学</ContentCell>
-              </tr>
-              <tr>
-                <YearCell>2018</YearCell>
-                <MonthCell>1</MonthCell>
-                <ContentCell>フィリピン語学留学</ContentCell>
+                <YearCell>2017-2018</YearCell>
+                <MonthCell>4</MonthCell>
+                <ContentCell>海外語学/異文化理解留学（デンマーク・フィリピン）</ContentCell>
               </tr>
               <tr>
                 <YearCell>2018</YearCell>
@@ -272,29 +272,9 @@ export default function Rirekisho() {
                 <ContentCell style={{textAlign: 'center', fontWeight: 'bold', paddingTop: '3mm', paddingBottom: '3mm'}}>職　歴</ContentCell>
               </tr>
               <tr>
-                <YearCell>2018</YearCell>
-                <MonthCell>4</MonthCell>
-                <ContentCell>各種サービス業・教育関連業務に従事（～2021年3月）</ContentCell>
-              </tr>
-              <tr>
                 <YearCell>2019</YearCell>
                 <MonthCell>4</MonthCell>
-                <ContentCell>職業訓練（Microsoft Office基礎）受講</ContentCell>
-              </tr>
-              <tr>
-                <YearCell>2020</YearCell>
-                <MonthCell>4</MonthCell>
-                <ContentCell>職業訓練（IT基礎・Python/Java）受講</ContentCell>
-              </tr>
-              <tr>
-                <YearCell>2020</YearCell>
-                <MonthCell>9</MonthCell>
-                <ContentCell>InternetAcademy ウェブデザイン総合コース 受講</ContentCell>
-              </tr>
-              <tr>
-                <YearCell>2021</YearCell>
-                <MonthCell>4</MonthCell>
-                <ContentCell>各種IT関連業務・派遣業務に従事</ContentCell>
+                <ContentCell>IT分野への転向期間としてプログラミングスクール受講およびWeb基礎学習、短期業務に従事（～2021年3月）</ContentCell>
               </tr>
               <tr>
                 <YearCell>2022</YearCell>
