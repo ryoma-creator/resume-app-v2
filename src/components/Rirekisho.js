@@ -212,7 +212,7 @@ export default function Rirekisho() {
               <tr>
                 <LabelCell>現住所</LabelCell>
                 <td colSpan="3" style={{fontSize: '8pt'}}>
-                  〒1634　Trion Towers, BGC, Taguig, Metro Manila, Philippines
+                  現在海外滞在中
                 </td>
               </tr>
               <tr>
@@ -247,18 +247,13 @@ export default function Rirekisho() {
                 <ContentCell>武蔵工業大学 環境情報学部環境情報学科 入学</ContentCell>
               </tr>
               <tr>
-                <td></td>
-                <td></td>
-                <ContentCell>サービス業・教育・翻訳・IT等の業務に従事（英語対応含む、～2021年3月）</ContentCell>
-              </tr>
-              <tr>
                 <YearCell>2012</YearCell>
                 <MonthCell>4</MonthCell>
                 <ContentCell>明治学院大学 法学部法律学科 編入学（3年次）</ContentCell>
               </tr>
               <tr>
                 <YearCell>2017-2018</YearCell>
-                <MonthCell>4</MonthCell>
+                <MonthCell></MonthCell>
                 <ContentCell>海外語学/異文化理解留学（デンマーク・フィリピン）</ContentCell>
               </tr>
               <tr>
@@ -272,9 +267,9 @@ export default function Rirekisho() {
                 <ContentCell style={{textAlign: 'center', fontWeight: 'bold', paddingTop: '3mm', paddingBottom: '3mm'}}>職　歴</ContentCell>
               </tr>
               <tr>
-                <YearCell>2019</YearCell>
-                <MonthCell>4</MonthCell>
-                <ContentCell>IT分野への転向期間としてプログラミングスクール受講およびWeb基礎学習、短期業務に従事（～2021年3月）</ContentCell>
+                <YearCell>2010</YearCell>
+                <MonthCell></MonthCell>
+                <ContentCell>サービス業・教育・翻訳・ITサポート等に従事（英語対応含む）</ContentCell>
               </tr>
               <tr>
                 <YearCell>2022</YearCell>
@@ -294,7 +289,7 @@ export default function Rirekisho() {
               <tr>
                 <YearCell>2024</YearCell>
                 <MonthCell>3</MonthCell>
-                <ContentCell>現在に至る（フロントエンド開発技術習得に専念）</ContentCell>
+                <ContentCell>現在フリーランスとして開発案件応募・技術研鑽中</ContentCell>
               </tr>
               <tr>
                 <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
@@ -337,23 +332,6 @@ export default function Rirekisho() {
                 <MonthCell>12</MonthCell>
                 <ContentCell>The Odin Project JavaScript / React Course 修了</ContentCell>
               </tr>
-              <tr>
-                <td>継続中</td>
-                <td></td>
-                <ContentCell>オンライン英会話 3,000回以上・90,000分以上・Legend達成（10年以上継続）</ContentCell>
-              </tr>
-              <tr>
-                <td>継続中</td>
-                <td></td>
-                <ContentCell>フロントエンド技術継続学習中（React/Next.js、TypeScript等）</ContentCell>
-              </tr>
-              <tr>
-                <td>継続中</td>
-                <td></td>
-                <ContentCell>
-                  ポートフォリオ：https://my-portfolio-website-lake.vercel.app/
-                </ContentCell>
-              </tr>
             </tbody>
           </QualificationTable>
 {/* 志望動機 */}
@@ -367,15 +345,16 @@ export default function Rirekisho() {
     <tr>
       <td colSpan="3" style={{height: '80mm', padding: '4mm', lineHeight: '1.3', fontSize: '9pt'}}>
       <strong>志望動機</strong><br/>
-        React/Next.jsを中心としたWeb開発経験と国際環境での実務経験を活かし、開発業務に貢献したく応募いたしました。<br/><br/>
+        React/Next.jsを中心とした開発経験と英語環境での実務経験を活かし、開発業務に貢献できればと考えております。<br/><br/>
 
         <strong>アピールポイント</strong><br/>
-        ・IBM Philippines Bilingual Application Developer(2025年4月〜10月)選考にて英語による6段階選考すべて通過（最終選考合格）<br/>
-        ・React / Next.js / TypeScript を中心としたWeb開発を継続（個人開発）<br/>
-        ・API連携・認証・DB等を含むフルスタック開発理解<br/>
-        ・国際環境での業務経験および英語コミュニケーション能力<br/>
-        ・Git管理、レスポンシブ、コンポーネント設計等の実装経験<br/>
-        ・AIツールを活用したモダン開発環境での実装経験（Cursor等）
+        ・IBM Philippines Bilingual Application Developer（2025年4月〜10月）英語6段階選考すべて通過（最終合格）<br/>
+        ・React / Next.js / TypeScript を中心としたWeb開発<br/>
+        ・API / 認証 / DB含むフルスタック開発理解<br/>
+        ・英語業務コミュニケーション<br/>
+        ・Figma等からのUI再現・pixel perfect実装<br/>
+        ・Git / レスポンシブ / コンポーネント設計<br/>
+        ・AIツール利用開発経験（Cursor等）
       </td>
     </tr>
   </tbody>
@@ -391,7 +370,10 @@ export default function Rirekisho() {
   <tbody>
     <tr>
       <td colSpan="3" style={{height: '40mm', padding: '4mm', lineHeight: '1.3', fontSize: '9pt'}}>
-        ・開発業務全般に柔軟に対応可能<br/>
+        <strong>ポートフォリオ</strong><br/>
+        https://my-portfolio-website-lake.vercel.app/<br/><br/>
+        <strong>LinkedIn</strong><br/>
+        https://www.linkedin.com/in/ryoma-taguchi-b32024283
       </td>
     </tr>
   </tbody>
