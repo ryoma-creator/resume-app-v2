@@ -165,7 +165,7 @@ export default function Rirekisho() {
       <Title>履　歴　書</Title>
       
       <DateLine>
-        2025年　7月　1日現在
+        2026年　2月　17日現在
       </DateLine>
 
       <MainContent>
@@ -179,8 +179,7 @@ export default function Rirekisho() {
                 <td style={{width: '35%'}}>たぐち　りょうま</td>
                 <LabelCell>※性別</LabelCell>
                 <td style={{width: '20%'}}>男</td>
-                <td rowSpan="5" style={{padding: 0}}>
-                  <PhotoCell>
+                <PhotoCell rowSpan="5" style={{padding: 0}}>
                     <img 
                       src="https://res.cloudinary.com/dptxzcxot/image/upload/v1740218108/PROFILE_PIC_ORIGINAL__pnllgi.png" 
                       alt="証明写真"
@@ -191,8 +190,7 @@ export default function Rirekisho() {
                         border: 'none'
                       }}
                     />
-                  </PhotoCell>
-                </td>
+                </PhotoCell>
               </tr>
               <tr>
                 <LabelCell>氏　名</LabelCell>
@@ -203,12 +201,12 @@ export default function Rirekisho() {
               </tr>
               <tr>
                 <LabelCell>生年月日</LabelCell>
-                <td colSpan="3">1988年　11月　13日生　（満36歳）</td>
+                <td colSpan="3">1988年　11月　13日生　（満37歳）</td>
               </tr>
               <tr>
                 <LabelCell>ふりがな</LabelCell>
                 <td colSpan="3" style={{fontSize: '8pt'}}>
-                  トリオンタワーズ、ビージーシー、タギッグ、メトロマニラ
+                  〒220-0074　神奈川県横浜市西区南浅間町33-9
                 </td>
               </tr>
               <tr>
@@ -350,19 +348,9 @@ export default function Rirekisho() {
                 <ContentCell>TOEIC 750点</ContentCell>
               </tr>
               <tr>
-                <YearCell>2019</YearCell>
-                <MonthCell>6</MonthCell>
-                <ContentCell>職業訓練修了証（Microsoft Office基礎）</ContentCell>
-              </tr>
-              <tr>
                 <YearCell>2020</YearCell>
                 <MonthCell>6</MonthCell>
-                <ContentCell>MOS Word/Excel</ContentCell>
-              </tr>
-              <tr>
-                <YearCell>2020</YearCell>
-                <MonthCell>8</MonthCell>
-                <ContentCell>職業訓練修了証（Python/Java）</ContentCell>
+                <ContentCell>MOS Word/Excel/Powerpoint</ContentCell>
               </tr>
               <tr>
                 <YearCell>2024</YearCell>
@@ -382,11 +370,9 @@ export default function Rirekisho() {
               <tr>
                 <td>継続中</td>
                 <td></td>
-                <ContentCell>ポートフォリオサイト・Webアプリケーション4件公開中<br/>
-                ・ポートフォリオサイト：https://my-portfolio-website-lake.vercel.app/<br/>
-                ・ECサイト：https://ecommerce-p66q.vercel.app/<br/>
-                ・タスク管理ツール：https://todo-app-kappa-ochre.vercel.app/<br/>
-                ・天気予報アプリ：https://weather-app-eight-amber-29.vercel.app/</ContentCell>
+                <ContentCell>
+                  ポートフォリオ：https://my-portfolio-website-lake.vercel.app/
+                </ContentCell>
               </tr>
             </tbody>
           </QualificationTable>
@@ -400,21 +386,16 @@ export default function Rirekisho() {
   <tbody>
     <tr>
       <td colSpan="3" style={{height: '80mm', padding: '4mm', lineHeight: '1.3', fontSize: '9pt'}}>
-        <strong>志望動機</strong><br/>
-        これまでのアクセンチュアでの国際プロジェクト経験と新たに習得したフロントエンド技術を活かし、技術力で企業成長に貢献したく応募いたします。<br/><br/>
+      <strong>志望動機</strong><br/>
+        React/Next.jsを中心としたWeb開発経験と国際環境での実務経験を活かし、開発業務に貢献したく応募いたしました。<br/><br/>
 
         <strong>アピールポイント</strong><br/>
-        ・1年半の集中学習（毎日6-14時間）により習得したフロントエンド技術一式（React/Next.js、レスポンシブデザイン、Git管理等）<br/>
-        ・実践的なWebアプリケーション開発経験（ECサイト、タスク管理ツール、天気予報アプリ、ポートフォリオサイト）<br/>
-        ・技術的課題への継続的対応と解決（プロジェクト復旧対応、パフォーマンス最適化、フレームワーク移行等）<br/>
-        ・アクセンチュアでサブチームリード経験（多国籍チーム5名の統括）<br/>
-        ・新人研修効率化による生産性向上（研修期間を約70%短縮）<br/>
-        ・国際プロジェクトでの調整・架け橋役としての実績<br/>
-        ・法学部での論理思考力を基盤とした本質的な問題解決能力<br/>
-        ・10年以上の英語学習継続による国際的なコミュニケーション能力<br/>
-        ・15年以上のサッカー・フットサル経験によるチームワークとリーダーシップ<br/><br/>
-
-        技術力の向上と国際経験を融合し、チーム開発での貢献と企業の成長を支える人材として活躍したいと考えています。
+        ・IBM Philippines Bilingual Application Developer(2025年4月〜10月)選考にて英語による6段階選考すべて通過（最終選考合格）<br/>
+        ・React / Next.js / TypeScript を中心としたWeb開発を継続（個人開発）<br/>
+        ・API連携・認証・DB等を含むフルスタック開発理解<br/>
+        ・国際環境での業務経験および英語コミュニケーション能力<br/>
+        ・Git管理、レスポンシブ、コンポーネント設計等の実装経験<br/>
+        ・AIツールを活用したモダン開発環境での実装経験（Cursor等）
       </td>
     </tr>
   </tbody>
@@ -430,15 +411,11 @@ export default function Rirekisho() {
   <tbody>
     <tr>
       <td colSpan="3" style={{height: '40mm', padding: '4mm', lineHeight: '1.3', fontSize: '9pt'}}>
-        ・<strong>職種</strong>：フロントエンド開発を通じた技術スキル向上を希望<br/>
-        ・<strong>勤務形態</strong>：フレックス・リモート可能な環境を希望<br/>
-        ・<strong>その他</strong>：国際経験を活かした多様なチームでの開発業務を希望。技術力向上と国際的な環境での更なる成長を目指す<br/><br/>
-
-        貴社の事業成長に技術面から貢献し、長期的なキャリア形成を図りたいと考えています。
+        ・開発業務全般に柔軟に対応可能<br/>
       </td>
     </tr>
   </tbody>
-</RequestTable>
+</RequestTable> 
         </RightColumn>
       </MainContent>
     </RirekishoContainer>
