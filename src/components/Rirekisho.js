@@ -268,8 +268,8 @@ export default function Rirekisho() {
               </tr>
               <tr>
                 <YearCell>2010</YearCell>
-                <MonthCell></MonthCell>
-                <ContentCell>サービス業・教育・翻訳・ITサポート等に従事（英語対応含む）</ContentCell>
+                <MonthCell>4</MonthCell>
+                <ContentCell>サービス業・教育・翻訳・ITサポート業務に従事（英語対応含む）</ContentCell>
               </tr>
               <tr>
                 <YearCell>2022</YearCell>
@@ -289,7 +289,7 @@ export default function Rirekisho() {
               <tr>
                 <YearCell>2024</YearCell>
                 <MonthCell>3</MonthCell>
-                <ContentCell>現在フリーランスとして開発案件応募・技術研鑽中</ContentCell>
+                <ContentCell>現在：フリーランスとして開発案件応募・技術研鑽中</ContentCell>
               </tr>
               <tr>
                 <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
@@ -330,50 +330,49 @@ export default function Rirekisho() {
               <tr>
                 <YearCell>2024</YearCell>
                 <MonthCell>12</MonthCell>
-                <ContentCell>The Odin Project JavaScript / React Course 修了</ContentCell>
+                <ContentCell>The Odin Project（JavaScript/React）修了</ContentCell>
               </tr>
             </tbody>
           </QualificationTable>
-{/* 志望動機 */}
+{/* 技術サマリー */}
 <MotivationTable>
   <thead>
     <tr>
-      <th colSpan="3">志望の動機、特技、好きな学科、アピールポイントなど</th>
+      <th colSpan="3">技術サマリー</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td colSpan="3" style={{height: '80mm', padding: '4mm', lineHeight: '1.3', fontSize: '9pt'}}>
-      <strong>志望動機</strong><br/>
-        React/Next.jsを中心とした開発経験と英語環境での実務経験を活かし、開発業務に貢献できればと考えております。<br/><br/>
-
-        <strong>アピールポイント</strong><br/>
-        ・IBM Philippines Bilingual Application Developer（2025年4月〜10月）英語6段階選考すべて通過（最終合格）<br/>
-        ・React / Next.js / TypeScript を中心としたWeb開発<br/>
-        ・API / 認証 / DB含むフルスタック開発理解<br/>
-        ・英語業務コミュニケーション<br/>
-        ・Figma等からのUI再現・pixel perfect実装<br/>
+        ・React / Next.js を中心とした開発（TypeScriptも使用）<br/>
+        ・API連携・認証・DB含むフルスタック理解<br/>
+        ・FigmaからのUI再現・pixel perfect実装<br/>
         ・Git / レスポンシブ / コンポーネント設計<br/>
-        ・AIツール利用開発経験（Cursor等）
+        ・英語での業務コミュニケーション<br/>
+        ・多国籍チーム調整経験（アクセンチュア）<br/>
+        ・IBM Philippines 開発者選考6段階合格（2025年）<br/><br/>
+        開発業務において技術力で貢献できればと考えております。
       </td>
     </tr>
   </tbody>
 </MotivationTable>
 
-{/* 本人希望記入欄 */}
+{/* ポートフォリオ */}
 <RequestTable>
   <thead>
     <tr>
-      <th colSpan="3">本人希望記入欄（特に給料・職種・勤務時間・勤務地・その他についての希望などがあれば記入）</th>
+      <th colSpan="3">ポートフォリオ</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td colSpan="3" style={{height: '40mm', padding: '4mm', lineHeight: '1.3', fontSize: '9pt'}}>
-        <strong>ポートフォリオ</strong><br/>
+        Portfolio:<br/>
         https://my-portfolio-website-lake.vercel.app/<br/><br/>
-        <strong>LinkedIn</strong><br/>
-        https://www.linkedin.com/in/ryoma-taguchi-b32024283
+        LinkedIn:<br/>
+        https://www.linkedin.com/in/ryoma-taguchi-b32024283<br/><br/>
+        Odin:<br/>
+        https://www.theodinproject.com/
       </td>
     </tr>
   </tbody>
