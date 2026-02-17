@@ -239,8 +239,8 @@ export default function Rirekisho() {
             </thead>
             <tbody>
               <tr>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
+                <td style={{paddingTop: '3mm', paddingBottom: '3mm', borderRight: 'none', textAlign: 'center'}}></td>
+                <td style={{paddingTop: '3mm', paddingBottom: '3mm', borderLeft: 'none', textAlign: 'center'}}></td>
                 <ContentCell style={{textAlign: 'center', fontWeight: 'bold', paddingTop: '3mm', paddingBottom: '3mm'}}>学　歴</ContentCell>
               </tr>
               <tr>
@@ -269,8 +269,8 @@ export default function Rirekisho() {
                 <ContentCell>明治学院大学 法学部法律学科 卒業</ContentCell>
               </tr>
               <tr>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
+                <td style={{paddingTop: '3mm', paddingBottom: '3mm', borderRight: 'none', textAlign: 'center'}}></td>
+                <td style={{paddingTop: '3mm', paddingBottom: '3mm', borderLeft: 'none', textAlign: 'center'}}></td>
                 <ContentCell style={{textAlign: 'center', fontWeight: 'bold', paddingTop: '3mm', paddingBottom: '3mm'}}>職　歴</ContentCell>
               </tr>
               <tr>
@@ -319,8 +319,8 @@ export default function Rirekisho() {
                 <ContentCell>現在に至る（フロントエンド開発技術習得に専念）</ContentCell>
               </tr>
               <tr>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
+                <td style={{paddingTop: '3mm', paddingBottom: '3mm', borderRight: 'none', textAlign: 'center'}}></td>
+                <td style={{paddingTop: '3mm', paddingBottom: '3mm', borderLeft: 'none', textAlign: 'center'}}></td>
                 <ContentCell style={{textAlign: 'center', paddingTop: '3mm', paddingBottom: '3mm'}}>以上</ContentCell>
               </tr>
             </tbody>
