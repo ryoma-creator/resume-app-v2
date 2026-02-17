@@ -165,7 +165,7 @@ export default function Rirekisho() {
       <Title>履　歴　書</Title>
       
       <DateLine>
-        2026年　2月　17日現在
+        2025年　7月　1日現在
       </DateLine>
 
       <MainContent>
@@ -208,13 +208,13 @@ export default function Rirekisho() {
               <tr>
                 <LabelCell>ふりがな</LabelCell>
                 <td colSpan="3" style={{fontSize: '8pt'}}>
-                  かながわけん よこはまし にしく みなみあさままち
+                  トリオンタワーズ、ビージーシー、タギッグ、メトロマニラ
                 </td>
               </tr>
               <tr>
                 <LabelCell>現住所</LabelCell>
                 <td colSpan="3" style={{fontSize: '8pt'}}>
-                  神奈川県横浜市西区南浅間町33-9
+                  〒1634　Trion Towers, BGC, Taguig, Metro Manila, Philippines
                 </td>
               </tr>
               <tr>
@@ -316,7 +316,7 @@ export default function Rirekisho() {
               <tr>
                 <YearCell>2024</YearCell>
                 <MonthCell>3</MonthCell>
-                <ContentCell>現在：フリーランスとして開発案件応募・技術研鑽中</ContentCell>
+                <ContentCell>現在に至る（フロントエンド開発技術習得に専念）</ContentCell>
               </tr>
               <tr>
                 <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
@@ -366,8 +366,8 @@ export default function Rirekisho() {
               </tr>
               <tr>
                 <YearCell>2024</YearCell>
-                <MonthCell>6</MonthCell>
-                <ContentCell>The Odin Project JavaScript / React 修了</ContentCell>
+                <MonthCell>12</MonthCell>
+                <ContentCell>The Odin Project JavaScript / React Course 修了</ContentCell>
               </tr>
               <tr>
                 <td>継続中</td>
@@ -382,7 +382,11 @@ export default function Rirekisho() {
               <tr>
                 <td>継続中</td>
                 <td></td>
-                <ContentCell>ポートフォリオ：https://my-portfolio-website-lake.vercel.app/</ContentCell>
+                <ContentCell>ポートフォリオサイト・Webアプリケーション4件公開中<br/>
+                ・ポートフォリオサイト：https://my-portfolio-website-lake.vercel.app/<br/>
+                ・ECサイト：https://ecommerce-p66q.vercel.app/<br/>
+                ・タスク管理ツール：https://todo-app-kappa-ochre.vercel.app/<br/>
+                ・天気予報アプリ：https://weather-app-eight-amber-29.vercel.app/</ContentCell>
               </tr>
             </tbody>
           </QualificationTable>
@@ -397,16 +401,20 @@ export default function Rirekisho() {
     <tr>
       <td colSpan="3" style={{height: '80mm', padding: '4mm', lineHeight: '1.3', fontSize: '9pt'}}>
         <strong>志望動機</strong><br/>
-        開発業務において即戦力として貢献できればと考えております。<br/><br/>
+        これまでのアクセンチュアでの国際プロジェクト経験と新たに習得したフロントエンド技術を活かし、技術力で企業成長に貢献したく応募いたします。<br/><br/>
 
         <strong>アピールポイント</strong><br/>
-        ・IBM Philippines Bilingual Application Developer選考（2025年5月〜10月・英語6段階選考すべて通過）<br/>
+        ・1年半の集中学習（毎日6-14時間）により習得したフロントエンド技術一式（React/Next.js、レスポンシブデザイン、Git管理等）<br/>
         ・実践的なWebアプリケーション開発経験（ECサイト、タスク管理ツール、天気予報アプリ、ポートフォリオサイト）<br/>
         ・技術的課題への継続的対応と解決（プロジェクト復旧対応、パフォーマンス最適化、フレームワーク移行等）<br/>
         ・アクセンチュアでサブチームリード経験（多国籍チーム5名の統括）<br/>
         ・新人研修効率化による生産性向上（研修期間を約70%短縮）<br/>
         ・国際プロジェクトでの調整・架け橋役としての実績<br/>
-        ・10年以上の英語学習継続による国際的なコミュニケーション能力
+        ・法学部での論理思考力を基盤とした本質的な問題解決能力<br/>
+        ・10年以上の英語学習継続による国際的なコミュニケーション能力<br/>
+        ・15年以上のサッカー・フットサル経験によるチームワークとリーダーシップ<br/><br/>
+
+        技術力の向上と国際経験を融合し、チーム開発での貢献と企業の成長を支える人材として活躍したいと考えています。
       </td>
     </tr>
   </tbody>
