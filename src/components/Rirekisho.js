@@ -67,7 +67,7 @@ const BaseTable = styled.table`
   th, td {
     border: 1px solid #000;
     padding: 2mm;
-    vertical-align: top;
+    vertical-align: middle;
     font-size: 9pt;
   }
   
@@ -123,12 +123,14 @@ const YearCell = styled.td`
   width: 12%;
   text-align: center;
   font-size: 8pt;
+  border-right: none;
 `;
 
 const MonthCell = styled.td`
   width: 8%;
   text-align: center;
   font-size: 8pt;
+  border-left: none;
 `;
 
 const ContentCell = styled.td`
@@ -204,15 +206,15 @@ export default function Rirekisho() {
                 <td colSpan="3">1988年　11月　13日生　（満37歳）</td>
               </tr>
               <tr>
-                <LabelCell>ふりがな</LabelCell>
+                <LabelCell>現住所</LabelCell>
                 <td colSpan="3" style={{fontSize: '8pt'}}>
-                  〒220-0074　神奈川県横浜市西区南浅間町33-9
+                  〒1634　Trion Towers, BGC, Taguig, Metro Manila, Philippines
                 </td>
               </tr>
               <tr>
-                <LabelCell>現住所</LabelCell>
+                <LabelCell>連絡先</LabelCell>
                 <td colSpan="3" style={{fontSize: '8pt'}}>
-                  現在海外滞在中
+                  〒220-0074　神奈川県横浜市西区南浅間町33-9
                 </td>
               </tr>
               <tr>
@@ -230,16 +232,16 @@ export default function Rirekisho() {
           <CareerTable>
             <thead>
               <tr>
-                <th>年</th>
-                <th>月</th>
+                <th style={{borderRight: 'none'}}>年</th>
+                <th style={{borderLeft: 'none'}}>月</th>
                 <th>学歴・職歴（各別にまとめて書く）</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
-                <ContentCell style={{textAlign: 'center', fontWeight: 'bold', paddingTop: '3mm', paddingBottom: '3mm'}}>学　歴</ContentCell>
+                <td></td>
+                <td></td>
+                <ContentCell style={{textAlign: 'center', fontWeight: 'bold'}}>学　歴</ContentCell>
               </tr>
               <tr>
                 <YearCell>2008</YearCell>
@@ -262,14 +264,14 @@ export default function Rirekisho() {
                 <ContentCell>明治学院大学 法学部法律学科 卒業</ContentCell>
               </tr>
               <tr>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
-                <ContentCell style={{textAlign: 'center', fontWeight: 'bold', paddingTop: '3mm', paddingBottom: '3mm'}}>職　歴</ContentCell>
+                <td></td>
+                <td></td>
+                <ContentCell style={{textAlign: 'center', fontWeight: 'bold'}}>職　歴</ContentCell>
               </tr>
               <tr>
                 <YearCell>2010</YearCell>
                 <MonthCell>4</MonthCell>
-                <ContentCell>サービス業・教育・翻訳・ITサポート業務に従事（英語対応含む）</ContentCell>
+                <ContentCell>サービス業・教育・翻訳・ITサポート業務に従事（英語対応）</ContentCell>
               </tr>
               <tr>
                 <YearCell>2022</YearCell>
@@ -292,9 +294,9 @@ export default function Rirekisho() {
                 <ContentCell>現在：フリーランスとして開発案件応募・技術研鑽中</ContentCell>
               </tr>
               <tr>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
-                <ContentCell style={{textAlign: 'center', paddingTop: '3mm', paddingBottom: '3mm'}}>以上</ContentCell>
+                <td></td>
+                <td></td>
+                <ContentCell style={{textAlign: 'center'}}>以上</ContentCell>
               </tr>
             </tbody>
           </CareerTable>
@@ -306,8 +308,8 @@ export default function Rirekisho() {
           <QualificationTable>
             <thead>
               <tr>
-                <th>年</th>
-                <th>月</th>
+                <th style={{borderRight: 'none'}}>年</th>
+                <th style={{borderLeft: 'none'}}>月</th>
                 <th>免許・資格</th>
               </tr>
             </thead>
@@ -329,29 +331,22 @@ export default function Rirekisho() {
               </tr>
               <tr>
                 <YearCell>2024</YearCell>
-                <MonthCell>12</MonthCell>
-                <ContentCell>The Odin Project（JavaScript/React）修了</ContentCell>
+                <MonthCell>6</MonthCell>
+                <ContentCell>The Odin Project JavaScript / React 修了</ContentCell>
               </tr>
             </tbody>
           </QualificationTable>
-{/* 技術サマリー */}
+{/* 志望動機 */}
 <MotivationTable>
   <thead>
     <tr>
-      <th colSpan="3">技術サマリー</th>
+      <th colSpan="3">志望の動機、特技、好きな学科、アピールポイントなど</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td colSpan="3" style={{height: '80mm', padding: '4mm', lineHeight: '1.3', fontSize: '9pt'}}>
-        ・React / Next.js を中心とした開発（TypeScriptも使用）<br/>
-        ・API連携・認証・DB含むフルスタック理解<br/>
-        ・FigmaからのUI再現・pixel perfect実装<br/>
-        ・Git / レスポンシブ / コンポーネント設計<br/>
-        ・英語での業務コミュニケーション<br/>
-        ・多国籍チーム調整経験（アクセンチュア）<br/>
-        ・IBM Philippines 開発者選考6段階合格（2025年）<br/><br/>
-        開発業務において技術力で貢献できればと考えております。
+        開発業務において貢献できればと考えております。
       </td>
     </tr>
   </tbody>
