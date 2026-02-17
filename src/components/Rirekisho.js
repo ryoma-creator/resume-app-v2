@@ -165,7 +165,7 @@ export default function Rirekisho() {
       <Title>履　歴　書</Title>
       
       <DateLine>
-        2025年　7月　1日現在
+        2026年　2月　17日現在
       </DateLine>
 
       <MainContent>
@@ -203,26 +203,30 @@ export default function Rirekisho() {
               </tr>
               <tr>
                 <LabelCell>生年月日</LabelCell>
-                <td colSpan="3">1988年　11月　13日生　（満36歳）</td>
+                <td colSpan="3">1988年　11月　13日生　（満37歳）</td>
               </tr>
               <tr>
                 <LabelCell>ふりがな</LabelCell>
                 <td colSpan="3" style={{fontSize: '8pt'}}>
-                  トリオンタワーズ、ビージーシー、タギッグ、メトロマニラ
+                  かながわけんよこはましにしくみなみせんげんちょう
                 </td>
               </tr>
               <tr>
                 <LabelCell>現住所</LabelCell>
                 <td colSpan="3" style={{fontSize: '8pt'}}>
-                  〒1634　Trion Towers, BGC, Taguig, Metro Manila, Philippines
+                  〒220-0074　神奈川県横浜市西区南浅間町33-9
                 </td>
               </tr>
               <tr>
                 <LabelCell>電話</LabelCell>
-                <td>+63-935-981-8031</td>
+                <td>080-5519-4585</td>
                 <td colSpan="3" style={{fontSize: '8pt', color: '#666'}}>
                   （現住所以外に連絡希望の場合のみ）
                 </td>
+              </tr>
+              <tr>
+                <LabelCell>E-mail</LabelCell>
+                <td colSpan="4">ryoma.t.engineer@gmail.com</td>
               </tr>
 
             </tbody>
@@ -239,8 +243,8 @@ export default function Rirekisho() {
             </thead>
             <tbody>
               <tr>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm', borderRight: 'none', textAlign: 'center'}}></td>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm', borderLeft: 'none', textAlign: 'center'}}></td>
+                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
+                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
                 <ContentCell style={{textAlign: 'center', fontWeight: 'bold', paddingTop: '3mm', paddingBottom: '3mm'}}>学　歴</ContentCell>
               </tr>
               <tr>
@@ -269,8 +273,8 @@ export default function Rirekisho() {
                 <ContentCell>明治学院大学 法学部法律学科 卒業</ContentCell>
               </tr>
               <tr>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm', borderRight: 'none', textAlign: 'center'}}></td>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm', borderLeft: 'none', textAlign: 'center'}}></td>
+                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
+                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
                 <ContentCell style={{textAlign: 'center', fontWeight: 'bold', paddingTop: '3mm', paddingBottom: '3mm'}}>職　歴</ContentCell>
               </tr>
               <tr>
@@ -319,8 +323,8 @@ export default function Rirekisho() {
                 <ContentCell>現在に至る（フロントエンド開発技術習得に専念）</ContentCell>
               </tr>
               <tr>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm', borderRight: 'none', textAlign: 'center'}}></td>
-                <td style={{paddingTop: '3mm', paddingBottom: '3mm', borderLeft: 'none', textAlign: 'center'}}></td>
+                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
+                <td style={{paddingTop: '3mm', paddingBottom: '3mm'}}></td>
                 <ContentCell style={{textAlign: 'center', paddingTop: '3mm', paddingBottom: '3mm'}}>以上</ContentCell>
               </tr>
             </tbody>
