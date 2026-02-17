@@ -208,20 +208,19 @@ export default function Rirekisho() {
               <tr>
                 <LabelCell>現住所</LabelCell>
                 <td colSpan="3" style={{fontSize: '8pt'}}>
-                  〒1634　Trion Towers, BGC, Taguig, Metro Manila, Philippines
-                </td>
-              </tr>
-              <tr>
-                <LabelCell>連絡先</LabelCell>
-                <td colSpan="3" style={{fontSize: '8pt'}}>
                   〒220-0074　神奈川県横浜市西区南浅間町33-9
                 </td>
               </tr>
               <tr>
                 <LabelCell>電話</LabelCell>
-                <td>+63-935-981-8031</td>
-                <td colSpan="3" style={{fontSize: '8pt', color: '#666'}}>
-                  （現住所以外に連絡希望の場合のみ）
+                <td colSpan="3" style={{fontSize: '8pt'}}>
+                  080-5519-4585
+                </td>
+              </tr>
+              <tr>
+                <LabelCell>メール</LabelCell>
+                <td colSpan="3" style={{fontSize: '8pt'}}>
+                  ryoma.t.engineer@gmail.com
                 </td>
               </tr>
 
@@ -349,12 +348,10 @@ export default function Rirekisho() {
         開発業務において貢献できればと考えております。<br/><br/>
         <strong>アピールポイント</strong><br/>
         ・React / Next.js を中心とした開発（TypeScriptも使用）<br/>
-        ・API連携・認証・DB含むフルスタック理解<br/>
-        ・FigmaからのUI再現・pixel perfect実装<br/>
+        ・FigmaからのUI再現（pixel perfect）<br/>
         ・Git / レスポンシブ / コンポーネント設計<br/>
-        ・英語での業務コミュニケーション<br/>
-        ・多国籍チーム調整経験（アクセンチュア）<br/>
-        ・IBM Philippines 開発者選考6段階合格（2025年）
+        ・英語での業務コミュニケーション（多国籍チーム）<br/>
+        ・IBM Philippines 開発職選考（2025年5月〜10月）英語6段階選考を通過（最終合格）
       </td>
     </tr>
   </tbody>
@@ -370,12 +367,8 @@ export default function Rirekisho() {
   <tbody>
     <tr>
       <td colSpan="3" style={{height: '40mm', padding: '4mm', lineHeight: '1.3', fontSize: '9pt'}}>
-        Portfolio:<br/>
-        https://my-portfolio-website-lake.vercel.app/<br/><br/>
-        LinkedIn:<br/>
-        https://www.linkedin.com/in/ryoma-taguchi-b32024283<br/><br/>
-        Odin:<br/>
-        https://www.theodinproject.com/
+        ポートフォリオ：<br/>
+        https://my-portfolio-website-lake.vercel.app/
       </td>
     </tr>
   </tbody>
